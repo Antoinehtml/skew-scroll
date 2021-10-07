@@ -1,0 +1,14 @@
+body{
+	height: 100vh;
+	overflow: hidden;
+
+	background-color: #ffb2cc;
+}
+
+.grid-wrap {
+	display: grid;
+	grid-template-columns: repeat(3, 25%);
+	gap: 5%;
+	justify-content: center;
+	margin: 0 auto;
+}
